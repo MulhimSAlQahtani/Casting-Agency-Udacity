@@ -5,7 +5,7 @@ All backend code follows [PEP8 style guidelines](https://www.python.org/dev/peps
 
 As of now, there is no frontend for this app. You can test it using cURL or [Postman](https://www.postman.com)
 
-This app is deployed on heroku under this [link](https://mulhim-test-two.herokuapp.com).
+This app is deployed on heroku under this [link](https://casting-app-6234.herokuapp.com).
 
 
 ## Getting Started
@@ -108,7 +108,7 @@ Please Note, to use any endpoint, you must send the request with user access tok
 
 Example Request
 ```
-curl --location --request GET 'https://fsnd-capstone-castingagency.herokuapp.com/Movies' \
+curl --location --request GET 'https://casting-app-6234.herokuapp.com/Movies' \
 --header 'Authorization: Bearer <TOKEN>'
 ```
 Following is the sample response at each endpoint.
@@ -237,5 +237,5 @@ python test_app.py
 
 ## Deployment
 
-This app is deployed on heroku under this [link](https://fsnd-capstone-castingagency.herokuapp.com/).
+This app is deployed on heroku under this [link](https://casting-app-6234.herokuapp.com/).
 
