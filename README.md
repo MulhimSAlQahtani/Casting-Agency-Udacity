@@ -256,9 +256,9 @@ Following is the sample response at each endpoint.
 
 To run the tests, run
 ```
-dropdb capstone_test
-createdb capstone_test
-psql capstone_test < db.psql
+dropdb agency_test
+createdb agency_test
+psql agency_test < agensy.psql
 python test_app.py
 ```
 
