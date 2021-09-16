@@ -5,7 +5,34 @@ All backend code follows [PEP8 style guidelines](https://www.python.org/dev/peps
 
 As of now, there is no frontend for this app. You can test it using cURL or [Postman](https://www.postman.com)
 
-This app is deployed on heroku under this [link](https://casting-app-6234.herokuapp.com).
+This app is deployed on heroku under this [Casting App](https://casting-app-6234.herokuapp.com).
+
+## Authentication
+
+The API has three registered users:
+
+1. Assistant
+
+```
+email: castingassistant@movies.com
+password: castingassistant@123
+```
+
+2. Director
+
+```
+email: castingdirector@movies.com
+password: castingdirector@123
+```
+
+3. Producer
+
+```
+email: executiveproducer@movies.com
+password: executiveproducer@123
+```
+
+The Auth0 domain and api audience can be found in `setup.sh`.
 
 
 ## Getting Started
